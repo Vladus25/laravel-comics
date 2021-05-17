@@ -3,14 +3,66 @@ main{
   // Jumbotron
   section.jumbotron{
     background-image: url("/storage/images/jumbotron.jpg");
-    background-size: cover;
     padding-top: 150px;
     height: 450px;
+    position: relative;
   }
 
   // Main del Comics
   section.main{
+    background-color: rgb(28, 28, 28);
 
+    .container{
+      @include container-center;
+
+      h1{
+        position: absolute;
+        top: 547px;
+        left: 340px;
+        background-color: rgb(2, 130, 249);
+        padding: 15px 20px;
+        width: 300px;
+        font-size: 30px;
+        color: white;
+      }
+
+      .list-series{
+        padding-bottom: 30px;
+
+        ul{
+          display: flex;
+          flex-wrap: wrap;
+
+          li{
+            padding-top: 70px;
+            width: 180px;
+            margin: 0 10px;
+
+            img{
+              height: 200px;
+              width: 180px;
+            }
+
+            p{
+              color: white;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+
+      .button-more{
+        text-align: center;
+        padding-bottom: 50px;
+
+        a{
+          color: white;
+          padding: 10px 50px;
+          background-color: rgb(2, 130, 249);
+        }
+
+      }
+    }
   }
 
 }
