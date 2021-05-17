@@ -43,25 +43,25 @@
             <li>
               <a href="#">
                 <img src="{{ asset('/storage/images/merchandise.png') }}" alt="Merchandise">
-                <p>DIGITAL COMICS</p>
+                <p>DC MERCHANDISE</p>
               </a>
             </li>
             <li>
               <a href="#">
                 <img src="{{ asset('/storage/images/subscriptions.png') }}" alt="Subscription">
-                <p>DIGITAL COMICS</p>
+                <p>SUBSCRIPTION</p>
               </a>
             </li>
             <li>
               <a href="#">
                 <img src="{{ asset('/storage/images/shop-locator.png') }}" alt="Shop-locator">
-                <p>DIGITAL COMICS</p>
+                <p>COMIC SHOP LOCATOR</p>
               </a>
             </li>
             <li>
               <a href="#">
                 <img src="{{ asset('/storage/images/power-visa.svg') }}" alt="Power-visa">
-                <p>DIGITAL COMICS</p>
+                <p>DC POWER VISA</p>
               </a>
             </li>
           </ul>

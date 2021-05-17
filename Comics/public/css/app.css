@@ -106,8 +106,8 @@ main section.main .container h1 {
   left: 340px;
   background-color: #0282f9;
   padding: 15px 20px;
-  width: 300px;
-  font-size: 30px;
+  width: 260px;
+  font-size: 25px;
   color: white;
 }
 
@@ -158,11 +158,11 @@ main section.information-photo .container {
 
 main section.information-photo .container .list-info ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 50px 0;
 }
 
 main section.information-photo .container .list-info ul li {
-  padding: 50px 0;
   display: flex;
   justify-content: center;
 }
@@ -182,6 +182,61 @@ main section.information-photo .container .list-info ul li a p {
   line-height: 65px;
   font-size: 14px;
   padding-left: 15px;
+}
+
+footer section.footer-background {
+  background-image: url("/storage/images/dc-logo-bg.png"), url("/storage/images/footer-bg.jpg");
+  background-size: auto, cover;
+  background-repeat: no-repeat;
+  background-position: 75% 50%, center;
+}
+
+footer section.footer-background .container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 0;
+}
+
+footer section.footer-background .container .footer-info {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer section.footer-background .container .footer-info ul li a {
+  font-size: 14px;
+  color: #8e8e8e;
+}
+
+footer section.footer-background .container .footer-info ul li b {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: white;
+}
+
+footer section.footer-background .container .footer-info ul li:first-child {
+  padding-bottom: 20px;
+}
+
+footer section.footer-background .container .copyright {
+  padding: 30px 0;
+  color: #8e8e8e;
+  font-size: 14px;
+  width: 55%;
+}
+
+footer section.footer-background .container .copyright p a {
+  color: blue;
+}
+
+footer section.footer-pie {
+  background-color: #303030;
+}
+
+footer section.footer-pie .container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 0;
 }
 
 * {

@@ -21,8 +21,8 @@ main{
         left: 340px;
         background-color: rgb(2, 130, 249);
         padding: 15px 20px;
-        width: 300px;
-        font-size: 30px;
+        width: 260px;
+        font-size: 25px;
         color: white;
       }
 
@@ -75,10 +75,10 @@ main{
 
         ul{
           display: flex;
-          justify-content: space-between;
+          justify-content: space-around;
+          padding: 50px 0;
 
           li{
-            padding: 50px 0;
             display: flex;
             justify-content: center;
 
