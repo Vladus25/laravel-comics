@@ -1,4 +1,13 @@
 @extends('layouts.main-layout')
 @section('content')
-    <h1>Hello World</h1>
+  <main>
+
+    {{-- Jumbotron --}}
+    <section class="jumbotron">
+
+    </section>
+
+    {{-- Main del Comics --}}
+
+  </main>
 @endsection
