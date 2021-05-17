@@ -236,7 +236,35 @@ footer section.footer-pie {
 footer section.footer-pie .container {
   max-width: 1200px;
   margin: auto;
-  padding: 20px 0;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer section.footer-pie .container .sign {
+  border: 2px solid #0282f9;
+  padding: 10px;
+}
+
+footer section.footer-pie .container .sign a {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+footer section.footer-pie .container .social a:first-child {
+  color: blue;
+  font-weight: bold;
+}
+
+footer section.footer-pie .container .social a {
+  padding: 0 10px;
+  font-size: 20px;
+  line-height: 48px;
+}
+
+footer section.footer-pie .container .social a i {
+  color: #8e8e8e;
 }
 
 * {

@@ -55,6 +55,19 @@
   {{-- Pie del pagina --}}
   <section class="footer-pie">
     <div class="container">
+
+      <div class="sign">
+        <a href="#">SIGN-UP NOW!</a>
+      </div>
+
+      <div class="social">
+        <a href="#">FOLLOW US</a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+      </div>
+
     </div>
   </section>
 
