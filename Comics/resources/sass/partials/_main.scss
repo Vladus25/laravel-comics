@@ -65,4 +65,42 @@ main{
     }
   }
 
+  section.information-photo{
+    background-color: rgb(2, 130, 249);
+
+    .container{
+      @include container-center;
+
+      .list-info{
+
+        ul{
+          display: flex;
+          justify-content: space-between;
+
+          li{
+            padding: 50px 0;
+            display: flex;
+            justify-content: center;
+
+            a{
+              display: flex;
+              align-self: center;
+              color: white;
+
+              img{
+                width: 50px;
+                height: 65px;
+              }
+
+              p{
+                line-height: 65px;
+                font-size: 14px;
+                padding-left: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

@@ -147,6 +147,43 @@ main section.main .container .button-more a {
   background-color: #0282f9;
 }
 
+main section.information-photo {
+  background-color: #0282f9;
+}
+
+main section.information-photo .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+main section.information-photo .container .list-info ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+main section.information-photo .container .list-info ul li {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+main section.information-photo .container .list-info ul li a {
+  display: flex;
+  align-self: center;
+  color: white;
+}
+
+main section.information-photo .container .list-info ul li a img {
+  width: 50px;
+  height: 65px;
+}
+
+main section.information-photo .container .list-info ul li a p {
+  line-height: 65px;
+  font-size: 14px;
+  padding-left: 15px;
+}
+
 * {
   margin: 0;
   padding: 0;

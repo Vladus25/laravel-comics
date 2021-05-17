@@ -29,5 +29,45 @@
       </div>
     </section>
 
+    {{-- Informazioni con foto --}}
+    <section class="information-photo">
+      <div class="container">
+        <div class="list-info">
+          <ul>
+            <li>
+              <a href="#">
+                <img src="{{ asset('/storage/images/digital-comics-trasparent.png') }}" alt="digital-comics">
+                <p>DIGITAL COMICS</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="{{ asset('/storage/images/merchandise.png') }}" alt="Merchandise">
+                <p>DIGITAL COMICS</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="{{ asset('/storage/images/subscriptions.png') }}" alt="Subscription">
+                <p>DIGITAL COMICS</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="{{ asset('/storage/images/shop-locator.png') }}" alt="Shop-locator">
+                <p>DIGITAL COMICS</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="{{ asset('/storage/images/power-visa.svg') }}" alt="Power-visa">
+                <p>DIGITAL COMICS</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
   </main>
 @endsection
