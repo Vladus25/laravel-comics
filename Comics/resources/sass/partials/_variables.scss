@@ -1,0 +1,14 @@
+
+// Color none
+$color-none: rgba(0, 0, 0, 0);
+
+// Colori
+
+
+// Tutti mixin
+
+// Contenitore che mette tutto al centro
+@mixin container-center{
+  max-width: 1200px;
+  margin: auto;
+}
