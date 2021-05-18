@@ -21,7 +21,7 @@
         <div class="cover">
           <img src="{{$comics['thumb']}}" alt="">
           <p class="cover-book">COMIC BOOK</p>
-          <a class="gallery" href="#">VIEW GALLERY</a>
+          <a class="gallery" href="http://localhost:8000/">VIEW GALLERY</a>
 
         </div>
 
