@@ -1,0 +1,137 @@
+.comics-description{
+
+  // Jumbotron
+  section.jumbotron{
+    background-image: url("/storage/images/jumbotron.jpg");
+    padding-top: 150px;
+    height: 450px;
+    position: relative;
+  }
+
+  // Linea blue
+  .line-blue{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(2, 130, 249);
+  }
+
+  // Main del Comics-description
+  section.main{
+    background-color: white;
+
+    .container{
+      max-width: 1000px;
+      margin: auto;
+      padding-bottom: 70px;
+
+      .cover{
+        position: absolute;
+        top: 350px;
+        left: 453px;
+      }
+
+      .container-comics{
+        display: flex;
+        justify-content: space-between;
+
+        .description-comics{
+          width: 65%;
+          padding-top: 80px;
+
+          .title{
+            font-size: 30px;
+            font-weight: bold;
+            color: rgb(0, 63, 94);
+          }
+
+          .line-green{
+            display: flex;
+            padding: 15px 0;
+
+            .available{
+              width: 70%;
+              background-color: rgb(62, 162, 66);
+              border-right: 1px solid black;
+              display: flex;
+              justify-content: space-between;
+
+              p{
+                padding: 15px 30px;
+                color: rgb(161, 241, 136);
+                span{
+                  color: white;
+                }
+              }
+
+            }
+
+            .check{
+              width: 30%;
+              background-color: rgb(62, 162, 66);
+
+              p{
+                padding: 15px 20px;
+
+                a{
+                  color: white;
+                }
+
+                i{
+                  padding-left: 5px;
+                  color: white;
+                }
+              }
+
+
+            }
+          }
+
+          .comics-descr{
+            color: rgb(142, 142, 142);
+            font-size: 16px;
+          }
+        }
+
+        .advertisement{
+          width: 30%;
+          padding-top: 60px;
+
+          .text-adv{
+            display: flex;
+            justify-content: flex-end;
+          }
+
+        }
+
+      }
+
+    }
+  }
+
+  section.talent-specs{
+    background-color: rgb(246, 246, 246);
+    border-top: 2px solid rgba(190, 190, 190, 0.81);
+    border-bottom: 1px solid rgba(190, 190, 190, 0.81);
+
+    .container{
+      max-width: 1000px;
+      margin: auto;
+      padding-top: 30px;
+      padding-bottom: 100px;
+
+      .secondary-info{
+
+        .talent{
+          width: 50%;
+        }
+
+        .specs{
+          width: 50%;
+        }
+
+      }
+    }
+  }
+
+}

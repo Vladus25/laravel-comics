@@ -2,9 +2,5 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('home', 'TestController@home');
-Route::get('home2', 'TestController@home2');
+Route::get('/', 'TestController@home')-> name('home');
+Route::get('/comics/{index}', 'TestController@comics') -> name('comics');

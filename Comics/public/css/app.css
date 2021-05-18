@@ -184,6 +184,128 @@ main section.information-photo .container .list-info ul li a p {
   padding-left: 15px;
 }
 
+.comics-description section.jumbotron {
+  background-image: url("/storage/images/jumbotron.jpg");
+  padding-top: 150px;
+  height: 450px;
+  position: relative;
+}
+
+.comics-description .line-blue {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: #0282f9;
+}
+
+.comics-description section.main {
+  background-color: white;
+}
+
+.comics-description section.main .container {
+  max-width: 1000px;
+  margin: auto;
+  padding-bottom: 70px;
+}
+
+.comics-description section.main .container .cover {
+  position: absolute;
+  top: 350px;
+  left: 453px;
+}
+
+.comics-description section.main .container .container-comics {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comics-description section.main .container .container-comics .description-comics {
+  width: 65%;
+  padding-top: 80px;
+}
+
+.comics-description section.main .container .container-comics .description-comics .title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #003f5e;
+}
+
+.comics-description section.main .container .container-comics .description-comics .line-green {
+  display: flex;
+  padding: 15px 0;
+}
+
+.comics-description section.main .container .container-comics .description-comics .line-green .available {
+  width: 70%;
+  background-color: #3ea242;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comics-description section.main .container .container-comics .description-comics .line-green .available p {
+  padding: 15px 30px;
+  color: #a1f188;
+}
+
+.comics-description section.main .container .container-comics .description-comics .line-green .available p span {
+  color: white;
+}
+
+.comics-description section.main .container .container-comics .description-comics .line-green .check {
+  width: 30%;
+  background-color: #3ea242;
+}
+
+.comics-description section.main .container .container-comics .description-comics .line-green .check p {
+  padding: 15px 20px;
+}
+
+.comics-description section.main .container .container-comics .description-comics .line-green .check p a {
+  color: white;
+}
+
+.comics-description section.main .container .container-comics .description-comics .line-green .check p i {
+  padding-left: 5px;
+  color: white;
+}
+
+.comics-description section.main .container .container-comics .description-comics .comics-descr {
+  color: #8e8e8e;
+  font-size: 16px;
+}
+
+.comics-description section.main .container .container-comics .advertisement {
+  width: 30%;
+  padding-top: 60px;
+}
+
+.comics-description section.main .container .container-comics .advertisement .text-adv {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.comics-description section.talent-specs {
+  background-color: #f6f6f6;
+  border-top: 2px solid rgba(190, 190, 190, 0.81);
+  border-bottom: 1px solid rgba(190, 190, 190, 0.81);
+}
+
+.comics-description section.talent-specs .container {
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.comics-description section.talent-specs .container .secondary-info .talent {
+  width: 50%;
+}
+
+.comics-description section.talent-specs .container .secondary-info .specs {
+  width: 50%;
+}
+
 footer section.footer-background {
   background-image: url("/storage/images/dc-logo-bg.png"), url("/storage/images/footer-bg.jpg");
   background-size: auto, cover;

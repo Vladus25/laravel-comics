@@ -16,7 +16,9 @@
           <ul>
             @foreach ($data as $d)
               <li>
-                <img src="{{$d['thumb']}}" alt="logo">
+                <a href="{{ route('comics', $loop->index) }}">
+                  <img src="{{$d['thumb']}}" alt="logo">
+                </a>
                 <p>{{$d['series']}}</p>
               </li>
             @endforeach
