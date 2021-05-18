@@ -75,19 +75,25 @@ footer{
 
       .social{
 
-        a:first-child{
-          color: blue;
-          font-weight: bold;
-        }
+        ul{
+          display: flex;
+          align-items: center;
+          height: 48px;
 
-        a{
-          padding: 0 10px;
-          font-size: 20px;
-          line-height: 48px;
 
-          i{
-            color: rgb(142, 142, 142);
+          a:first-child{
+            color: rgb(2, 130, 249);
+            font-weight: bold;
           }
+
+          a{
+            padding: 0 5px;
+
+            img{
+              width: 25px;
+            }
+          }
+
         }
       }
     }

@@ -140,6 +140,7 @@
 
             p{
               width: 30%;
+              color: rgb(0, 63, 94);
             }
 
             div{
@@ -159,6 +160,7 @@
 
             p{
               width: 30%;
+              color: rgb(0, 63, 94);
             }
 
             div{
@@ -188,6 +190,7 @@
 
             p{
               width: 40%;
+              color: rgb(0, 63, 94);
             }
 
             div{
@@ -204,6 +207,39 @@
           }
         }
 
+      }
+    }
+  }
+
+  section.icons-img{
+    background-color: rgb(246, 246, 246);
+
+    .container{
+      width: 1000px;
+      margin: auto;
+
+      .contenitore-icons{
+        display: flex;
+
+        .size-icons{
+          display: flex;
+          justify-content: space-between;
+          width: 25%;
+          border-left: 1px solid rgba(190, 190, 190, 0.81);
+          border-right: 1px solid rgba(190, 190, 190, 0.81);
+
+          img{
+            padding: 15px;
+            height: 65px;
+          }
+
+          p{
+            font-size: 13px;
+            font-weight: bold;
+            padding: 15px;
+            color: rgb(142, 142, 142);
+          }
+        }
       }
     }
   }

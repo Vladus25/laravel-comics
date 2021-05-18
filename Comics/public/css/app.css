@@ -321,6 +321,7 @@ main section.information-photo .container .list-info ul li a p {
 
 .comics-description section.talent-specs .container .secondary-info .talent .artists p {
   width: 30%;
+  color: #003f5e;
 }
 
 .comics-description section.talent-specs .container .secondary-info .talent .artists div {
@@ -339,6 +340,7 @@ main section.information-photo .container .list-info ul li a p {
 
 .comics-description section.talent-specs .container .secondary-info .talent .writers p {
   width: 30%;
+  color: #003f5e;
 }
 
 .comics-description section.talent-specs .container .secondary-info .talent .writers div {
@@ -367,6 +369,7 @@ main section.information-photo .container .list-info ul li a p {
 
 .comics-description section.talent-specs .container .secondary-info .specs .specs-info p {
   width: 40%;
+  color: #003f5e;
 }
 
 .comics-description section.talent-specs .container .secondary-info .specs .specs-info div {
@@ -379,6 +382,39 @@ main section.information-photo .container .list-info ul li a p {
 
 .comics-description section.talent-specs .container .secondary-info .specs .specs-info div span {
   font-size: 16px;
+}
+
+.comics-description section.icons-img {
+  background-color: #f6f6f6;
+}
+
+.comics-description section.icons-img .container {
+  width: 1000px;
+  margin: auto;
+}
+
+.comics-description section.icons-img .container .contenitore-icons {
+  display: flex;
+}
+
+.comics-description section.icons-img .container .contenitore-icons .size-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  border-left: 1px solid rgba(190, 190, 190, 0.81);
+  border-right: 1px solid rgba(190, 190, 190, 0.81);
+}
+
+.comics-description section.icons-img .container .contenitore-icons .size-icons img {
+  padding: 15px;
+  height: 65px;
+}
+
+.comics-description section.icons-img .container .contenitore-icons .size-icons p {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 15px;
+  color: #8e8e8e;
 }
 
 footer section.footer-background {
@@ -449,19 +485,23 @@ footer section.footer-pie .container .sign a {
   color: white;
 }
 
-footer section.footer-pie .container .social a:first-child {
-  color: blue;
+footer section.footer-pie .container .social ul {
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+
+footer section.footer-pie .container .social ul a:first-child {
+  color: #0282f9;
   font-weight: bold;
 }
 
-footer section.footer-pie .container .social a {
-  padding: 0 10px;
-  font-size: 20px;
-  line-height: 48px;
+footer section.footer-pie .container .social ul a {
+  padding: 0 5px;
 }
 
-footer section.footer-pie .container .social a i {
-  color: #8e8e8e;
+footer section.footer-pie .container .social ul a img {
+  width: 25px;
 }
 
 * {

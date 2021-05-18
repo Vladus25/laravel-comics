@@ -61,11 +61,14 @@
       </div>
 
       <div class="social">
-        <a href="#">FOLLOW US</a>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+        <ul>
+          <li><a href="#">FOLLOW US</a></li>
+          <li><a href="#"><img src="{{ asset('/storage/images/footer-facebook.png') }}"></a></li>
+          <li><a href="#"><img src="{{ asset('/storage/images/footer-twitter.png') }}"></a></li>
+          <li><a href="#"><img src="{{ asset('/storage/images/footer-youtube.png') }}"></a></li>
+          <li><a href="#"><img src="{{ asset('/storage/images/footer-pinterest.png') }}"></a></li>
+          <li><a href="#"><img src="{{ asset('/storage/images/footer-periscope.png') }}"></a></li>
+        </ul>
       </div>
 
     </div>

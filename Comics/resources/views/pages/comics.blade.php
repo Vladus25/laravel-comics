@@ -113,8 +113,32 @@
     </section>
 
     {{-- Imagini alla fine del main --}}
-    <section>
+    <section class="icons-img">
+      <div class="container">
+        <div class="contenitore-icons">
 
+          <div class="size-icons">
+            <p>DIGITAL COMICS</p>
+            <img src="{{ asset('/storage/images/icons-1.png') }}">
+          </div>
+
+          <div class="size-icons">
+            <p>SHOP DC</p>
+            <img src="{{ asset('/storage/images/icons-4.png') }}">
+          </div>
+
+          <div class="size-icons">
+            <p>COMIC SHOP LOCATOR</p>
+            <img src="{{ asset('/storage/images/icons-3.png') }}">
+          </div>
+
+          <div class="size-icons">
+            <p>SUBSCRIPTIONS</p>
+            <img src="{{ asset('/storage/images/icons-2.png') }}">
+          </div>
+
+        </div>
+      </div>
     </section>
 
   </main>
