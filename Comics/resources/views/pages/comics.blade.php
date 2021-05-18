@@ -30,7 +30,7 @@
             <div class="line-green">
 
               <div class="available">
-                <p>U.S. Price : <span>{{$comics['price']}}</span></p>
+                <p>U.S. Price: <span>{{$comics['price']}}</span></p>
                 <p>AVAILABLE</p>
               </div>
 
@@ -58,16 +58,63 @@
       <div class="container">
         <div class="secondary-info">
 
+          {{-- Sezione di Artisti e da Writers --}}
           <div class="talent">
             <h3>Talent</h3>
+
+            <div class="artists">
+              <p>Art by:</p>
+              <div>
+                @foreach ($comics['artists'] as $artist)
+                  <a href="#">{{$artist}}, </a>
+                @endforeach
+              </div>
+            </div>
+
+            <div class="writers">
+              <p>Written by:</p>
+              <div>
+                @foreach ($comics['writers'] as $writer)
+                  <a href="#">{{$writer}}, </a>
+                @endforeach
+              </div>
+            </div>
+
           </div>
 
+          {{-- Sezione di Series, Prezzo e Data  --}}
           <div class="specs">
             <h3>Specs</h3>
+
+            <div class="specs-info">
+              <p>Series:</p>
+              <div>
+                <a href="#">{{$comics['series']}}</a>
+              </div>
+            </div>
+
+            <div class="specs-info">
+              <p>U.S. Price:</p>
+              <div>
+                <span>{{$comics['price']}}</span>
+              </div>
+            </div>
+
+            <div class="specs-info">
+              <p>On Sale Date:</p>
+              <div>
+                <span>{{$comics['sale_date']}}</span>
+              </div>
+            </div>
           </div>
 
         </div>
       </div>
+    </section>
+
+    {{-- Imagini alla fine del main --}}
+    <section>
+
     </section>
 
   </main>

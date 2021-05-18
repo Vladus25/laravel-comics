@@ -121,13 +121,87 @@
       padding-bottom: 100px;
 
       .secondary-info{
+        display: flex;
+        justify-content: space-between;
 
         .talent{
           width: 50%;
+
+          h3{
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(190, 190, 190, 0.61);
+            color: rgb(0, 63, 94);
+          }
+
+          .artists{
+            display: flex;
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(190, 190, 190, 0.61);
+
+            p{
+              width: 30%;
+            }
+
+            div{
+              width: 70%;
+
+              a{
+                font-size: 14px;
+              }
+            }
+
+          }
+
+          .writers{
+            display: flex;
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(190, 190, 190, 0.61);
+
+            p{
+              width: 30%;
+            }
+
+            div{
+              width: 70%;
+
+              a{
+                font-size: 14px;
+              }
+            }
+          }
+
         }
 
         .specs{
-          width: 50%;
+          width: 45%;
+
+          h3{
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(190, 190, 190, 0.61);
+            color: rgb(0, 63, 94);
+          }
+
+          .specs-info{
+            display: flex;
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(190, 190, 190, 0.61);
+
+            p{
+              width: 40%;
+            }
+
+            div{
+              width: 60%;
+
+              a{
+                font-size: 16px;
+              }
+
+              span{
+                font-size: 16px;
+              }
+            }
+          }
         }
 
       }

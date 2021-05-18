@@ -298,12 +298,87 @@ main section.information-photo .container .list-info ul li a p {
   padding-bottom: 100px;
 }
 
+.comics-description section.talent-specs .container .secondary-info {
+  display: flex;
+  justify-content: space-between;
+}
+
 .comics-description section.talent-specs .container .secondary-info .talent {
   width: 50%;
 }
 
+.comics-description section.talent-specs .container .secondary-info .talent h3 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(190, 190, 190, 0.61);
+  color: #003f5e;
+}
+
+.comics-description section.talent-specs .container .secondary-info .talent .artists {
+  display: flex;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(190, 190, 190, 0.61);
+}
+
+.comics-description section.talent-specs .container .secondary-info .talent .artists p {
+  width: 30%;
+}
+
+.comics-description section.talent-specs .container .secondary-info .talent .artists div {
+  width: 70%;
+}
+
+.comics-description section.talent-specs .container .secondary-info .talent .artists div a {
+  font-size: 14px;
+}
+
+.comics-description section.talent-specs .container .secondary-info .talent .writers {
+  display: flex;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(190, 190, 190, 0.61);
+}
+
+.comics-description section.talent-specs .container .secondary-info .talent .writers p {
+  width: 30%;
+}
+
+.comics-description section.talent-specs .container .secondary-info .talent .writers div {
+  width: 70%;
+}
+
+.comics-description section.talent-specs .container .secondary-info .talent .writers div a {
+  font-size: 14px;
+}
+
 .comics-description section.talent-specs .container .secondary-info .specs {
-  width: 50%;
+  width: 45%;
+}
+
+.comics-description section.talent-specs .container .secondary-info .specs h3 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(190, 190, 190, 0.61);
+  color: #003f5e;
+}
+
+.comics-description section.talent-specs .container .secondary-info .specs .specs-info {
+  display: flex;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(190, 190, 190, 0.61);
+}
+
+.comics-description section.talent-specs .container .secondary-info .specs .specs-info p {
+  width: 40%;
+}
+
+.comics-description section.talent-specs .container .secondary-info .specs .specs-info div {
+  width: 60%;
+}
+
+.comics-description section.talent-specs .container .secondary-info .specs .specs-info div a {
+  font-size: 16px;
+}
+
+.comics-description section.talent-specs .container .secondary-info .specs .specs-info div span {
+  font-size: 16px;
 }
 
 footer section.footer-background {
