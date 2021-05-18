@@ -26,9 +26,39 @@
       padding-bottom: 70px;
 
       .cover{
-        position: absolute;
-        top: 350px;
-        left: 453px;
+        // position: absolute;
+        // top: 350px;
+        // left: 453px;
+
+        img{
+          position: absolute;
+          top: 350px;
+          left: 453px;
+          border: 1px solid white;
+        }
+
+        .cover-book{
+          width: 101px;
+          font-size: 14px;
+          padding: 5px;
+          background-color: rgb(0, 169, 217);
+          position: absolute;
+          top: 351px;
+          left: 454px;
+          color: white;
+        }
+
+        .gallery{
+          font-size: 14px;
+          padding: 5px 0;
+          text-align: center;
+          width: 192px;
+          background-color: rgb(0, 169, 217);
+          position: absolute;
+          top: 615px;
+          left: 454px;
+          color: white;
+        }
       }
 
       .container-comics{
